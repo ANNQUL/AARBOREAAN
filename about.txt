@@ -1,5 +1,0 @@
-Theme name:     AARBOREAAN
-Description:    A white-space theme with an arborean structure.
-Author name:    ANNQUL
-Author site:    http://anxl.faith
-License:        https://opensource.org/licenses/MIT
