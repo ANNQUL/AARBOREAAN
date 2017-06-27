@@ -9,8 +9,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -21,7 +21,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -43,11 +43,12 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-                                           /* MAIN CSS */
-                                           /* LAYOUT */
+
+		/* MAIN CSS */
+ 		/* LAYOUT */
 
 body {
-    margin-top: 20vh;
+    margin-top: 13vh;
 }
 
 section {
@@ -55,7 +56,6 @@ section {
     max-width: 80%;
     margin: auto;
 }
-
 
 article {
     text-align: center;
@@ -160,7 +160,8 @@ footer {
 .credit {
     margin-bottom: 0;
 }
-                                            /* TYPOGRAPHY */
+
+		/* TYPOGRAPHY */
 
 body {
     font: 21px/1.375 'Alegreya', 'Georgia', 'Times New Roman', serif;
@@ -182,7 +183,7 @@ h1 {
     line-height: 1.05;
 }
 
-h2 {    
+h2 {
     font-size: 1.60em;
     line-height: 1.25;
     margin-bottom: 0.4em;
@@ -234,33 +235,33 @@ blockquote {
     font-style: normal;
 }
 
-                                            /* DETAILS */
+		/* DETAILS & EFFECTS */
+
 a {
     text-decoration: underline;
 }
 
-a:visited, a:active {
+a {
+    color: #b10c00;
+    -webkit-transition: color 1s;
+    -moz-transition: color 1s;
+    -o-transition: color 1s;
+    transition: color 1s;
+}
+a:hover {
     color: #345059;
 }
 
-a:hover, h1 a:hover {
-    color: #272F32;
-    text-decoration: none;
-}
-
-.main-menu a {
-    color:  #b10c00;
+a:visited, a:active {
 }
 
 /* Adapted blockquote from Max: "http://codepen.io/maxds/pen/DcveB/" */
 
 blockquote{
-    max-width: 90%;
+    max-width: 70%;
     display: block;
     padding: 0 auto;
     position: relative;
-    margin-left: 5%;
-
   /*Font*/
     font-size: 1em;
     line-height: 1.25833333;
@@ -292,7 +293,7 @@ footer {
     body {
         font-size: 20px;
     }
-    
+
     h1 {
         font-size: 1.2em;
     }
@@ -303,11 +304,11 @@ footer {
     section {
         max-width: 60vw;
     }
-    
+
     h1 {
         font-size: 2em;
     }
-    
+
     blockquote {
         font-size: 1.1em;
     }
@@ -317,11 +318,11 @@ footer {
     section {
         max-width: 45vw;
     }
-    
+
     h1 {
         font-size: 3em;
     }
-        
+
     .main-header {
         margin: 5% 0;
     }
