@@ -1,4 +1,5 @@
-                                            /*RESET CSS*/
+
+	/*RESET CSS*/
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -44,7 +45,7 @@ table {
 	border-spacing: 0;
 }
 
- 		/* LAYOUT */
+	/* LAYOUT */
 
 body {
     margin-top: 13vh;
@@ -163,13 +164,13 @@ footer {
 		/* TYPOGRAPHY */
 
 body {
-    font: 21px/1.375 'Alegreya', 'Georgia', 'Times New Roman', serif;
+    font: 21px/1.375 'EB Garamond', 'Georgia', 'Times New Roman', serif;
     color: #272F32;
     text-align: left;
 }
 
 h1, h2, h3, h4{
-    font-family: 'Playfair Display', 'Alegreya', 'Georgia', 'Times New Roman', serif;
+    font-family: 'EB Garamond', 'Georgia', 'Times New Roman', serif;
     text-align: center;
 }
 
@@ -200,10 +201,6 @@ h4 {
     margin-bottom: 1em;
 }
 
-small, span {
-    font-style: italic;
-}
-
 .posts h1 a {
     font-size: 1em;
 }
@@ -216,17 +213,11 @@ em, strong {
     color: #b10c00;
 }
 
-strong {
-    font-style: italic;
-}
-
 a, small {
     color: #b10c00;
 }
 
 blockquote {
-    font-family: 'Alegreya';
-    font-style: italic;
     color: #b10c00;
 }
 
