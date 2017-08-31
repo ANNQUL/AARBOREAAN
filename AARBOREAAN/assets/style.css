@@ -48,7 +48,23 @@ table {
 	/* LAYOUT */
 
 body {
-    margin-top: 13vh;
+    margin-top: 8vh;
+		animation-name: fadeInUp;
+		animation-duration: 1s;
+		animation-fill-mode: both;
+		animation-timing-function: ease;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 50px, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
 }
 
 section {
@@ -281,6 +297,7 @@ footer {
 
 @media (max-width: 600px) {
     body {
+				margin-top: 10vh;
         font-size: 20px;
     }
 
@@ -303,9 +320,13 @@ footer {
     }
 }
 
-@media (min-width: 1920px) {
+@media (min-width: 1000px) {
+		body {
+			margin-top: 20vh;
+		}
+
     section {
-        max-width: 45vw;
+        max-width: 60vw;
     }
 
     h1 {
